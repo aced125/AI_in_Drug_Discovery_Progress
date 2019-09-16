@@ -224,9 +224,9 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-------------------------------|-----------------|---|
-|Ma  |`Sheridan`      | <a href="https://pubs.acs.org/doi/10.1021/ci500747n">Deep Neural Nets as a Method for Quantitatitve Structure-Activity Relationships</a>    |   380   | <a href="https://github.com/aspuru-guzik-group/chemical_vae">Yes</a> |
-|Wallach  |`Atomwise`      | <a href="https://arxiv.org/abs/1510.02855">AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery</a>    |   165   | <a href="https://github.com/aspuru-guzik-group/chemical_vae">Yes</a> |
-|Duvenaud  |`Aspuru-Guzik/Adams`      | <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00572#targetText=Continuous%20representations%20of%20molecules%20allow,structures%2C%20or%20interpolating%20between%20molecules.">Convolutional Networks on Graphs for Learning Molecular Fingerprints</a>    |   749   | <a href="https://github.com/aspuru-guzik-group/chemical_vae">Yes</a> |
+|Ma  |`Sheridan`      | <a href="https://pubs.acs.org/doi/10.1021/ci500747n">Deep Neural Nets as a Method for Quantitatitve Structure-Activity Relationships</a>    |   380   | - |
+|Wallach  |`Atomwise`      | <a href="https://arxiv.org/abs/1510.02855">AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery</a>    |   165   | - |
+|Duvenaud  |`Aspuru-Guzik/Adams`      | <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00572#targetText=Continuous%20representations%20of%20molecules%20allow,structures%2C%20or%20interpolating%20between%20molecules.">Convolutional Networks on Graphs for Learning Molecular Fingerprints</a>    |   749   | - |
 |Ramsundar  |`Google/Pande`      | <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00572#targetText=Continuous%20representations%20of%20molecules%20allow,structures%2C%20or%20interpolating%20between%20molecules.">Massively Multitask Networks for Drug Discovery</a>    |   222   | <a href="https://github.com/deepchem/deepchem">DeepChem</a> |
 ### Ma, Sheridan, Liaw, Dahl, Svetnik
 

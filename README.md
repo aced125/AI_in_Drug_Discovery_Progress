@@ -9,11 +9,16 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-----------------------------|-----------------|---|
 |Brown  |`BenevolentAI`      |<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00839">GuacaMol: Benchmarking Models for de Novo Molecular Design</a>       | 13 |<a href="https://github.com/BenevolentAI/guacamol">Yes</a>
+|Mater  |`Coote`      |[Deep Learning in Chemistry](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00266)  | 6 |-
 |Krenn  |`Aspuru-Guzik`      |[SELFIES: a robust representation of semantically constrained graphs with an example application in chemistry](https://arxiv.org/abs/1905.13741)  | - |[Yes](https://github.com/aspuru-guzik-group/selfies)
 
 ### Brown, Fiscato, Segler, Vaucher
 #### <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00839">GuacaMol: Benchmarking Models for de Novo Molecular Design</a> 
 >A set of benchmarks used to assess the quality of generative models. Benchmarks divided into distribution-learning, goal-directed, and assessment of compound quality.
+
+### Mater, Coote
+#### [Deep Learning in Chemistry](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00266)
+>An up-to-date, accurate and comprehensive review of where deep learning currently is with respect to chemistry.
 
 ### Krenn, Hase, Nigam, Friederich, Aspuru-Guzik
 #### [SELFIES: a robust representation of semantically constrained graphs with an example application in chemistry](https://arxiv.org/abs/1905.13741)

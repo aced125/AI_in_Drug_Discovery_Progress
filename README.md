@@ -10,6 +10,7 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 |-----------|---------|-----------------------------|-----------------|---|
 |Brown  |`BenevolentAI`      |<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00839">GuacaMol: Benchmarking Models for de Novo Molecular Design</a>       | 13 |<a href="https://github.com/BenevolentAI/guacamol">Yes</a>
 |Mater  |`Coote`      |[Deep Learning in Chemistry](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00266)  | 6 |-
+|Preuer  |`Unterthiner`      |[Interpretable Deep Learning in Drug Discovery](https://arxiv.org/pdf/1903.02788.pdf) | 6 |-
 |Krenn  |`Aspuru-Guzik`      |[SELFIES: a robust representation of semantically constrained graphs with an example application in chemistry](https://arxiv.org/abs/1905.13741)  | - |[Yes](https://github.com/aspuru-guzik-group/selfies)
 
 ### Brown, Fiscato, Segler, Vaucher
@@ -19,6 +20,10 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 ### Mater, Coote
 #### [Deep Learning in Chemistry](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00266)
 >An up-to-date, accurate and comprehensive review of where deep learning currently is with respect to chemistry.
+
+### Preuer, Klambauer, Rippmann, Hochreiter, Unterthiner
+#### [Interpretable Deep Learning in Drug Discovery](https://arxiv.org/pdf/1903.02788.pdf)
+>Description of a method to a) interpret parts of a molecule that results in biological activity and b) construct pharmacophores from graph convolutional neural networks.
 
 ### Krenn, Hase, Nigam, Friederich, Aspuru-Guzik
 #### [SELFIES: a robust representation of semantically constrained graphs with an example application in chemistry](https://arxiv.org/abs/1905.13741)
@@ -176,16 +181,20 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-------------------------------|-----------------|---|
 |Gilmer  |`Google`      | <a href="https://arxiv.org/abs/1704.01212">Neural Message Passing for Quantum Chemistry</a>    |   522 | - |
+|Altae-Tran  |`Pande`      | [Low Data Drug Discovery with One-Shot Learning](https://arxiv.org/pdf/1611.03199.pdf)   |   166 | <a href="https://github.com/deepchem/deepchem">DeepChem</a>  |
 |Faber  |`Lilienfeld/Google`      | [Prediction Errors of Molecular Machine Learning Models Lower than Hybrid DFT Error](https://pubs.acs.org/doi/full/10.1021/acs.jctc.7b00577 "Prediction Errors of Molecular Machine Learning Models Lower than Hybrid DFT Error")    |   143 | - |
 |Goh  |`Vishnu`      | <a href="https://arxiv.org/abs/1706.06689">Chemception: A Deep Neural Network with Minimal Chemistry Knowledge Matches the Performance of Expert-developed QSAR/QSPR Models</a>    |   44 | - |
 |Kearnes  |`Vertex/Pande`      | <a href="https://arxiv.org/pdf/1606.08793.pdf">Modeling Industrial ADMET Data with Multitask Networks</a>    |   30 | - |
 
-
-
-
 ### Gilmer, Schoenholz, Riley, Vinyals, Dahl
 #### <a href="https://arxiv.org/abs/1704.01212">Neural Message Passing for Quantum Chemistry</a>
 > Message passing neural networks on molecular graphs are shown to outperform previous state-of-the-art on a quantum chemistry dataset (QM9)
+
+
+### Altae-Tran, Ramsundar, Pappu, Pande
+#### [Low Data Drug Discovery with One-Shot Learning](https://arxiv.org/pdf/1611.03199.pdf)
+>
+
 
 
 ### Goh, Siegel, Vishnu, Hodas, Baker

@@ -9,10 +9,15 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-----------------------------|-----------------|---|
 |Brown  |`BenevolentAI`      |<a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00839">GuacaMol: Benchmarking Models for de Novo Molecular Design</a>       | 13 |<a href="https://github.com/BenevolentAI/guacamol">Yes</a>
+|Krenn  |`Aspuru-Guzik`      |[SELFIES: a robust representation of semantically constrained graphs with an example application in chemistry](https://arxiv.org/abs/1905.13741)  | - |[Yes](https://github.com/aspuru-guzik-group/selfies)
 
 ### Brown, Fiscato, Segler, Vaucher
 #### <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.8b00839">GuacaMol: Benchmarking Models for de Novo Molecular Design</a> 
->BenevolentAI designed a set of benchmarks used to assess the quality of generative models.
+>A set of benchmarks used to assess the quality of generative models. Benchmarks divided into distribution-learning, goal-directed, and assessment of compound quality.
+
+### Krenn, Hase, Nigam, Friederich, Aspuru-Guzik
+#### [SELFIES: a robust representation of semantically constrained graphs with an example application in chemistry](https://arxiv.org/abs/1905.13741)
+>Alternative representation to SMILES, which seems to perform better at reconstruction accuracy in generative tests.
 
 ## Generative
 
@@ -86,6 +91,7 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 |-----------|---------|-----------------------------|-----------------|---|
 |Wu  |`Pande`      |<a href="https://pubs.rsc.org/en/content/articlelanding/2018/sc/c7sc02664a#!divAbstract">MoleculeNet: a benchmark for molecular machine learning</a>       | 208 |<a href="https://github.com/deepchem/deepchem">DeepChem</a>
 | Chen|`Blaschke`      |<a href="https://www.sciencedirect.com/science/article/pii/S1359644617303598">The rise of deep learning in drug discovery</a>  | 169 |-
+| O'Boyle|`NextMove`      |[DeepSMILES: An Adaptation of SMILES for Use in Machine-Learning of Chemical Structures](https://chemrxiv.org/articles/DeepSMILES_An_Adaptation_of_SMILES_for_Use_in_Machine-Learning_of_Chemical_Structures/7097960/1)| 5 | [Yes](https://github.com/nextmovesoftware/deepsmiles)
 
 ### Chen, Engkvist, Wang, Olivecrona, Blaschke
 #### <a href="https://www.sciencedirect.com/science/article/pii/S1359644617303598">The rise of deep learning in drug discovery</a> 
@@ -118,17 +124,40 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 > Illustration of the use of deep reinforcement learning to generate molecules with a bias towards certain properties (bioactivity, logP etc). Features the use of a Stack Neural Network for encoding, introduced by Facebook researchers recently.
 
 
+
+## Retrosynthesis and Reaction Prediction
+
+|Lead Author|Group|Title|Citations|Code|
+|-----------|---------|-------------------------------|-----------------|---|
+|Segler  |`Waller`      | [Planning chemical syntheses with deep neural networks and symbolic AI](https://www.nature.com/articles/nature25978)|   216 | -|
+
+### Segler, Waller
+#### [Planning chemical syntheses with deep neural networks and symbolic AI](https://www.nature.com/articles/nature25978)
+>Nature paper on automated retrosynthesis. Clever data augmentation methods to generate more negative data.
+
+
+
 # 2017
 
 ## General
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-------------------------------|-----------------|---|
 |Goh  |`Vishnu`      | <a href="https://arxiv.org/abs/1704.01212">Deep Learning for Computational Chemistry</a>    |   157 | - |
+|Wallach  |`Atomwise`      |[Most Ligand-Based Classification Benchmarks Reward Memorization Rather than Generalization](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00403)    |   20 | - |
 |Axen  |`Keiser`      | <a href="https://pubs.acs.org/doi/10.1021/acs.jmedchem.7b00696">A Simple Representation of Three-Dimensional Molecular Structure</a>    |   9 |  <a href="https://github.com/keiserlab/e3fp">Yes</a> |
+
+
 
 ### Goh, Hodas, Vishnu
 #### <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.24764">Deep Learning for Computational Chemistry</a>
 > A review of the current use cases for deep learning in computational chemistry.
+
+
+
+
+### Wallach, Heifets
+#### [Most Ligand-Based Classification Benchmarks Reward Memorization Rather than Generalization](https://pubs.acs.org/doi/10.1021/acs.jcim.7b00403)
+>Introduction of the Asymmetric Validation Embedding (AVE) bias to better assess the domain of applicability of a machine learning model.
 
 
 
@@ -142,9 +171,10 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-------------------------------|-----------------|---|
 |Gilmer  |`Google`      | <a href="https://arxiv.org/abs/1704.01212">Neural Message Passing for Quantum Chemistry</a>    |   522 | - |
+|Faber  |`Lilienfeld/Google`      | [Prediction Errors of Molecular Machine Learning Models Lower than Hybrid DFT Error](https://pubs.acs.org/doi/full/10.1021/acs.jctc.7b00577 "Prediction Errors of Molecular Machine Learning Models Lower than Hybrid DFT Error")    |   143 | - |
 |Goh  |`Vishnu`      | <a href="https://arxiv.org/abs/1706.06689">Chemception: A Deep Neural Network with Minimal Chemistry Knowledge Matches the Performance of Expert-developed QSAR/QSPR Models</a>    |   44 | - |
 |Kearnes  |`Vertex/Pande`      | <a href="https://arxiv.org/pdf/1606.08793.pdf">Modeling Industrial ADMET Data with Multitask Networks</a>    |   30 | - |
-|Faber  |`Lilienfeld/Google`      | [Prediction Errors of Molecular Machine Learning Models Lower than Hybrid DFT Error](https://pubs.acs.org/doi/full/10.1021/acs.jctc.7b00577 "Prediction Errors of Molecular Machine Learning Models Lower than Hybrid DFT Error")    |   143 | - |
+
 
 
 
@@ -179,6 +209,18 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 > Uses the recently popular combination of combining a GAN with reinforcement learning to direct generative examples towards a defined prior.
 
 
+## Retrosynthesis and Reaction Prediction
+
+|Lead Author|Group|Title|Citations|Code|
+|-----------|---------|-------------------------------|-----------------|---|
+|Segler  |`Waller`      | [Neural-Symbolic Machine Learning for Retrosynthesis and Reaction Prediction](https://onlinelibrary.wiley.com/doi/abs/10.1002/chem.201605499)|   94 | -|
+|Liu  |`Pande`      | [Retrosynthetic Reaction Prediction Using Neural Sequence-to-Sequence Models](https://pubs.acs.org/doi/10.1021/acscentsci.7b00303)|   70 | -|
+
+### Segler, Waller
+#### [Neural-Symbolic Machine Learning for Retrosynthesis and Reaction Prediction](https://onlinelibrary.wiley.com/doi/abs/10.1002/chem.201605499)
+>One of the first examples of the use of RNNs for reaction prediction and retrosynthesis. Makes use of the attention mechanism.
+
+
 # 2016
 
 
@@ -189,20 +231,20 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-------------------------------|-----------------|---|
-|Lee  |`Brenner/Colwell`      | <a href="https://www.pnas.org/content/113/48/13564">Predicting protein-ligand affinity with a random matrix framework</a>    |   20   | <a href="https://github.com/aspuru-guzik-group/chemical_vae">Yes</a> |
 |Kearnes  |`Google/Pande`      | <a href="https://link.springer.com/article/10.1007/s10822-016-9938-8">Molecular Graph Convolutions: Moving Beyond Fingerprints</a>    |   327   |-|
+|Lee  |`Brenner/Colwell`      | <a href="https://www.pnas.org/content/113/48/13564">Predicting protein-ligand affinity with a random matrix framework</a>    |   20   | <a href="https://github.com/aspuru-guzik-group/chemical_vae">Yes</a> |
 
 
+
+### Kearnes, McCloskey, Berndl, Pande, Riley
+#### <a href="https://link.springer.com/article/10.1007/s10822-016-9938-8">Molecular Graph Convolutions: Moving Beyond Fingerprints</a>
+> Further demonstrate of the possible merits in using graph convolutions for molecular machine learning.
 
 ### Lee, Brenner, Colwell
 
 #### <a href="https://www.pnas.org/content/113/48/13564.short">Predicting protein-ligand affinity with a random matrix framework</a>
 > Development of a simple algorithm based on PCA (principle component analysis) and RMT (random matrix theory) to classify bioactivity of molecules, and gain interpretability of pharmacophores.
 
-
-### Kearnes, McCloskey, Berndl, Pande, Riley
-#### <a href="https://link.springer.com/article/10.1007/s10822-016-9938-8">Molecular Graph Convolutions: Moving Beyond Fingerprints</a>
-> Further demonstrate of the possible merits in using graph convolutions for molecular machine learning.
 
 
 
@@ -224,22 +266,12 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 
 |Lead Author|Group|Title|Citations|Code|
 |-----------|---------|-------------------------------|-----------------|---|
-|Ma  |`Sheridan`      | <a href="https://pubs.acs.org/doi/10.1021/ci500747n">Deep Neural Nets as a Method for Quantitatitve Structure-Activity Relationships</a>    |   380   | - |
-|Wallach  |`Atomwise`      | <a href="https://arxiv.org/abs/1510.02855">AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery</a>    |   165   | - |
 |Duvenaud  |`Aspuru-Guzik/Adams`      | <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00572#targetText=Continuous%20representations%20of%20molecules%20allow,structures%2C%20or%20interpolating%20between%20molecules.">Convolutional Networks on Graphs for Learning Molecular Fingerprints</a>    |   749   | - |
+|Ma  |`Sheridan`      | <a href="https://pubs.acs.org/doi/10.1021/ci500747n">Deep Neural Nets as a Method for Quantitatitve Structure-Activity Relationships</a>    |   380   | - |
 |Ramsundar  |`Google/Pande`      | <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.7b00572#targetText=Continuous%20representations%20of%20molecules%20allow,structures%2C%20or%20interpolating%20between%20molecules.">Massively Multitask Networks for Drug Discovery</a>    |   222   | <a href="https://github.com/deepchem/deepchem">DeepChem</a> |
-### Ma, Sheridan, Liaw, Dahl, Svetnik
-
-#### [Deep Neural Nets as a Method for Quantitatitve Structure-Activity Relationships](https://pubs.acs.org/doi/10.1021/ci500747n)
-
-> Follow-up paper to the Merck Kaggle challenge, which was won by a researcher in Hinton's lab. One of the first examples of the pushing of deep learning into the limelight for drug discovery.
+|Wallach  |`Atomwise`      | <a href="https://arxiv.org/abs/1510.02855">AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery</a>    |   165   | - |
 
 
-### Wallach, Dzamba, Heifets
-
-#### [AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery](https://arxiv.org/abs/1510.02855)
-
-> First known example of CNNs being applied to ligand-based drug discovery in the literature.
 
 ### Duvenaud, Maclaurin, Aguilera-Iparraguirre, Gomez-Bombarelli, Aspuru-Guzik, Adams
 
@@ -247,11 +279,25 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 
 >First example of elucidating the potential of graph convolutions on molecules.
 
+### Ma, Sheridan, Liaw, Dahl, Svetnik
+
+#### [Deep Neural Nets as a Method for Quantitatitve Structure-Activity Relationships](https://pubs.acs.org/doi/10.1021/ci500747n)
+
+> Follow-up paper to the Merck Kaggle challenge, which was won by a researcher in Hinton's lab. One of the first examples of the pushing of deep learning into the limelight for drug discovery.
+
+
 
 ### Ramsundar, Kearnes, Riley
 #### [Massively Multitask Networks for Drug Discovery](https://arxiv.org/abs/1502.02072)
 
 > Using a shared representation of hundreds of thousands of molecules to predict activity at multiple targets simultaneously. Some analysis is done to elucidate on the multitask effect.
+
+
+### Wallach, Dzamba, Heifets
+
+#### [AtomNet: A Deep Convolutional Neural Network for Bioactivity Prediction in Structure-based Drug Discovery](https://arxiv.org/abs/1510.02855)
+
+> First known example of CNNs being applied to ligand-based drug discovery in the literature.
 
 
 
@@ -344,3 +390,12 @@ This repository contains an up-to-date list (as of September 2019) of progress (
 ### Rogers, Hahn
 #### [Extended-connectivity fingerprints](https://pubs.acs.org/doi/10.1021/ci100050t)
 >Fingerprints are one of the best featurizations for chemoinformatics and machine-learning tasks for chemistry. A key paper in the field.
+
+
+# 1998
+
+## General
+
+|Lead Author|Group|Title|Citations|Code|
+|-----------|---------|-------------------------------|-----------------|---|
+|Weininger  |`Weininger`      | [SMILES, a chemical language and information system. 1. Introduction to methodology and encoding rules](https://pubs.acs.org/doi/10.1021/ci00057a005)   |   2719   | - |
